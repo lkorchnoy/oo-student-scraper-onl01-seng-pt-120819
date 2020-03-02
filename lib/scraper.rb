@@ -42,6 +42,7 @@ def self.scrape_index_page(index_url)
       student[:bio] = page.css("div.description-holder p").text
       student
   end
+end
 
 end
 
